@@ -17,7 +17,7 @@ let questions = [
     choice2: '7',
     choice3: '10',
     choice4: '6',
-    answer: 2
+    answer: 2,
   },
   {
     question: 'When did Enhypen debut?',
@@ -25,7 +25,7 @@ let questions = [
     choice2: 'Aug. 17th, 2020',
     choice3: 'Nov 30th, 2020',
     choice4: 'June 13th, 2019',
-    answer: 3
+    answer: 3,
   },
   {
     question: 'Whose the leader in Ateez?',
@@ -33,7 +33,7 @@ let questions = [
     choice2: 'Mingi',
     choice3: 'Wooyoung',
     choice4: 'Yeosan',
-    answer: 1
+    answer: 1,
   },
   {
     question: 'The maknae line in BTS',
@@ -41,7 +41,7 @@ let questions = [
     choice2: 'Suga, Jimin, V',
     choice3: 'RM, Jimin, JungKook',
     choice4: 'Jimin, V, JungKook',
-    answer: 4
+    answer: 4,
   },
   {
     question: 'How many members of Enhypen are not Korean?',
@@ -49,7 +49,7 @@ let questions = [
     choice2: '3',
     choice3: '5',
     choice4: '4',
-    answer: 2
+    answer: 2,
   }
 ]
 
@@ -67,7 +67,7 @@ getNewQuestion = () => {
   if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
     localStorage.setItem('mostRecentScore', score)
 
-    return window.location.assign('/end.html')
+    return window.location.assign('end.html')
   }
 
   questionCounter++
@@ -88,7 +88,7 @@ getNewQuestion = () => {
   acceptingAnswers = true
 }
 
-choice.forEach(choice => {
+choices.forEach(choice => {
   choice.addEventListener('click', e => {
     if(!acceptingAnswers) return
 

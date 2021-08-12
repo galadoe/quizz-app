@@ -89,7 +89,7 @@ h2{
 }
 
 #highscore-btn:hover{
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
 }
 
 .fa-crown{
@@ -112,7 +112,7 @@ input{
   padding: 1.5rem;
   font-size: 1.8rem;
   border: none;
-  box-shadow: 0 0.1rem 1.4rem 0 rgba(66, 185, 0.5);
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
   /* change color later */
 }
 

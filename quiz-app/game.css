@@ -15,7 +15,7 @@ body{
 
 .choice-container:hover{
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem rgb(6, 103, 247, 0.5);
+  box-shadow: 0 0.4rem 1.4rem rgba(6, 103, 247, 0.5);
   /* change color later */
   transform: scale(1.02);
   transform: transform 100ms;
@@ -32,12 +32,12 @@ body{
 }
 
 .correct{
-  background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgba(224, 11, 11, 1) 100%);
+  background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
   /* change color later */
 }
 
 .incorrect{
-  background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgba(41, 232, 111) 100%);
+  background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
   /* change color later */
 }
 
@@ -73,7 +73,7 @@ body{
   width: 0%;
 }
 
-@media scree and (max-wdith: 760px) {
+@media screen and (max-wdith: 760px) {
   .choice-container{
     min-width: 40rem;
   }
