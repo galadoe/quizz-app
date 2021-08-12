@@ -7,7 +7,7 @@ body{
   margin-bottom: 0.8rem;
   width: 100%;
   border-radius: 4px;
-  background: rgb(18, 93, 255);
+  background: rgb(185, 171, 219);
   /* change color later */
   font-size: 3rem;
   min-width: 80rem;
@@ -32,12 +32,12 @@ body{
 }
 
 .correct{
-  background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+  background: linear-gradient(32deg, rgba(171, 224, 213) 0%, rgb(127, 227, 207) 100%);
   /* change color later */
 }
 
 .incorrect{
-  background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+  background: linear-gradient(32deg, rgba(222, 95, 133) 0%, rgb(222, 64, 111) 100%);
   /* change color later */
 }
 
@@ -59,7 +59,7 @@ body{
 #progressBar {
   width: 20rem;
   height: 3rem;
-  border: 0.2rem solid rgb(11, 223, 36);
+  border: 0.2rem solid rgb(232, 183, 198);
   /* change color later */
   margin-top: 2rem;
   border-radius: 50px;
@@ -68,7 +68,7 @@ body{
 
 #progressBarFull {
   height: 100%;
-  background: rgb(11, 223, 36);
+  background: rgb(232, 183, 198);
   /* change color later */
   width: 0%;
 }
